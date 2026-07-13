@@ -20,6 +20,8 @@ import esquirefront from "./assets/image/esquirefront.jpg"
 import esquireback from "./assets/image/esquireback.jpg"
 import Harrierfront from "./assets/image/harrierfront.jpg"
 import Harrierback from "./assets/image/harrierback.jpg"
+import crossfront from "./assets/image/corollacrossfront.jpg"
+import crossback  from "./assets/image/corollacrossback.jpg"
 
 const productDetails = [
     {
@@ -193,7 +195,7 @@ const productDetails = [
         id: 6,
         BrandName: "Toyota",
         ModelName: "Esquire",
-        CarImage:[],
+        CarImage:[esquirefront,esquireback],
         CarCC: 2000,
         FuelType: "Octane /Hybrid",
         CarRunning: "60000km",
@@ -223,7 +225,7 @@ const productDetails = [
         id: 7,
         BrandName: "Toyota",
         ModelName: "Corolla Cross",
-        CarImage:[],
+        CarImage:[crossfront,crossback],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "50000km",
@@ -253,7 +255,7 @@ const productDetails = [
         id: 8,
         BrandName: "Toyota",
         ModelName: "Harrier",
-        CarImage:[],
+        CarImage:[Harrierfront,Harrierback],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "40000km",
@@ -290,7 +292,7 @@ const productDetails = [
         id: 9,
         BrandName: "Toyota",
         ModelName: "C-HR",
-        CarImage:[],
+        CarImage:[CHRback,CHRfront],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "47000km",
@@ -320,7 +322,7 @@ const productDetails = [
         id: 10,
         BrandName: "Toyota",
         ModelName: "Alphard",
-        CarImage:[],
+        CarImage:[Alphardfront,Alphardback],
         CarCC: 2500,
         FuelType: "Octane | Hybrid",
         CarRunning: "65000km",
@@ -357,7 +359,7 @@ const productDetails = [
         id: 11,
         BrandName: "Toyota",
         ModelName: "Aqua",
-        CarImage:[],
+        CarImage:[aquafront ,aquaback],
         CarCC: 1000,
         FuelType: "Hybrid ",
         CarRunning: "30000km",
@@ -380,7 +382,7 @@ const productDetails = [
         id: 12,
         BrandName: "Toyota",
         ModelName: "Vitz",
-        CarImage:[],
+        CarImage:[Vitzfront,Vitzback],
         CarCC: 1300,
         FuelType: "Octane",
         CarRunning: "65000km",
