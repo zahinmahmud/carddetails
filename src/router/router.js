@@ -3,7 +3,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Question from "../components/Question.vue";
 import App from "../App.vue";
 import Home from "../components/Home.vue"
-// import productD from "../components/ProductD.vue"
+import Detailsoproduct from "../components/Detailsoproduct.vue";
+
 
 const router = createRouter({
   history: createWebHistory(),
@@ -16,11 +17,11 @@ const router = createRouter({
       path: "/questions",
       component: Question
     },
-    // {
-    //   path:"/productDetails/:id",
-    //   name:"ProductDetails",
-    //   component:productD
-    // }
+   
+    {
+      path:"/details/:id",
+      component:Detailsoproduct
+    }
   ]
 });
 

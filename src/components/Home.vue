@@ -35,7 +35,7 @@ const router = useRouter()
 const nextPage =(id)=>{
     console.log("nex page")
 
-    router.push(`./ProductDetails/${id}`)
+    router.push(`/details/${id}`)
 }
 </script>
 

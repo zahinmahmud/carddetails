@@ -1,4 +1,5 @@
 import premio from "./assets/image/premio_front.jpg";
+import premioB from "./assets/image/premio_back.jpg"
 
 const productDetails = [
     {
@@ -6,6 +7,7 @@ const productDetails = [
         BrandName: "Toyota",
         ModelName: "Premio",
         CarImage:premio,
+        CarImageback:premioB,
         ImageWidth:"150px",
         CarCC: 1600,
         FuelType: "Octane",
@@ -134,7 +136,7 @@ const productDetails = [
         ]
     },
     {
-        id: 5, // Note: You may want to update this ID to 5 to keep the sequence correct
+        id: 5,
         BrandName: "Toyota",
         ModelName: "Voxy",
         CarCC: 2000,
