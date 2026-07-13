@@ -1,15 +1,34 @@
 import premio from "./assets/image/premio_front.jpg";
 import premioB from "./assets/image/premio_back.jpg"
 import noahFront from "./assets/image/Toyota-Noah_front.jpg"
+import noahback from "./assets/image/noahback.jpg"
+import allionFront from "./assets/image/allionfront.jpg"
+import allionback from "./assets/image/allionback.jpg"
+import axiofront from "./assets/image/axiofront.jpg"
+import axioback from "./assets/image/axioback.jpg"
+import voxyfront from "./assets/image/voxyfront.jpg "
+import voxyback from "./assets/image/voxyback.jpg"
+import aquafront from "./assets/image/aquafront.jpg"
+import aquaback from "./assets/image/aquaback.jpg"
+import Vitzfront from "./assets/image/VitzFront.jpg"
+import Vitzback from "./assets/image/vitzback.jpg"
+import Alphardfront from "./assets/image/alphardfront.jpg"
+import Alphardback from "./assets/image/alphardback.jpg"
+import CHRfront from "./assets/image/CR-Vfront.jpg"
+import CHRback from "./assets/image/CHR.jpg"
+import esquirefront from "./assets/image/esquirefront.jpg"
+import esquireback from "./assets/image/esquireback.jpg"
+import Harrierfront from "./assets/image/harrierfront.jpg"
+import Harrierback from "./assets/image/harrierback.jpg"
 
 const productDetails = [
     {
         id: 1,
         BrandName: "Toyota",
         ModelName: "Premio",
-        CarImage:premio,
-        CarImageback:premioB,
-        ImageWidth:"150px",
+        CarImage: premio,
+        CarImageback: premioB,
+        ImageWidth: "150px",
         CarCC: 1600,
         FuelType: "Octane",
         CarRunning: "65000km",
@@ -47,8 +66,8 @@ const productDetails = [
         BrandName: "Toyota",
         ModelName: "Noah",
         CarCC: 2000,
-        CarImage:noahFront,
-            ImageWidth:"150px",
+        CarImage: [noahFront,noahback],
+        ImageWidth: "150px",
         FuelType: "Octane | Hybrid",
         CarRunning: "81460km",
         Manufacture: 2021,
@@ -77,6 +96,7 @@ const productDetails = [
         id: 3,
         BrandName: "Toyota",
         ModelName: "Axio",
+        CarImage:[allionFront,allionback],
         CarCC: 1300,
         FuelType: "Octane",
         CarRunning: 67000,
@@ -113,6 +133,7 @@ const productDetails = [
         id: 4,
         BrandName: "Toyota",
         ModelName: "Allion",
+        CarImage:[allionFront,allionback],
         CarCC: 1500,
         FuelType: "Octane ",
         CarRunning: "44188km",
@@ -143,6 +164,7 @@ const productDetails = [
         BrandName: "Toyota",
         ModelName: "Voxy",
         CarCC: 2000,
+        CarImage:[voxyfront,voxyback],
         FuelType: "Octane /Hybrid",
         CarRunning: "87000km",
         Manufacture: 2021,
@@ -171,6 +193,7 @@ const productDetails = [
         id: 6,
         BrandName: "Toyota",
         ModelName: "Esquire",
+        CarImage:[],
         CarCC: 2000,
         FuelType: "Octane /Hybrid",
         CarRunning: "60000km",
@@ -200,6 +223,7 @@ const productDetails = [
         id: 7,
         BrandName: "Toyota",
         ModelName: "Corolla Cross",
+        CarImage:[],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "50000km",
@@ -229,6 +253,7 @@ const productDetails = [
         id: 8,
         BrandName: "Toyota",
         ModelName: "Harrier",
+        CarImage:[],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "40000km",
@@ -265,6 +290,7 @@ const productDetails = [
         id: 9,
         BrandName: "Toyota",
         ModelName: "C-HR",
+        CarImage:[],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "47000km",
@@ -294,6 +320,7 @@ const productDetails = [
         id: 10,
         BrandName: "Toyota",
         ModelName: "Alphard",
+        CarImage:[],
         CarCC: 2500,
         FuelType: "Octane | Hybrid",
         CarRunning: "65000km",
@@ -330,8 +357,9 @@ const productDetails = [
         id: 11,
         BrandName: "Toyota",
         ModelName: "Aqua",
+        CarImage:[],
         CarCC: 1000,
-        FuelType: "Hybrid ", 
+        FuelType: "Hybrid ",
         CarRunning: "30000km",
         Manufacture: 2021,
         Package: "S-Style Black",
@@ -352,6 +380,7 @@ const productDetails = [
         id: 12,
         BrandName: "Toyota",
         ModelName: "Vitz",
+        CarImage:[],
         CarCC: 1300,
         FuelType: "Octane",
         CarRunning: "65000km",
@@ -388,6 +417,7 @@ const productDetails = [
         id: 13,
         BrandName: "Toyota",
         ModelName: "Rav4",
+        CarImage:[],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "63000km",
@@ -417,8 +447,9 @@ const productDetails = [
         id: 14,
         BrandName: "Toyota",
         ModelName: "Rush",
+        CarImage:[],
         CarCC: 1600,
-        FuelType: "Octane ", 
+        FuelType: "Octane ",
         CarRunning: "20000km",
         Manufacture: 2020,
         Package: "S Package",
@@ -439,6 +470,7 @@ const productDetails = [
         id: 15,
         BrandName: "Toyota",
         ModelName: "Land Crusier Prado",
+        CarImage:[],
         CarCC: 2700,
         FuelType: "Octane",
         CarRunning: "65000km",
