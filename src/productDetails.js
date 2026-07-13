@@ -1,5 +1,6 @@
 import premio from "./assets/image/premio_front.jpg";
 import premioB from "./assets/image/premio_back.jpg"
+import noahFront from "./assets/image/Toyota-Noah_front.jpg"
 
 const productDetails = [
     {
@@ -46,6 +47,8 @@ const productDetails = [
         BrandName: "Toyota",
         ModelName: "Noah",
         CarCC: 2000,
+        CarImage:noahFront,
+            ImageWidth:"150px",
         FuelType: "Octane | Hybrid",
         CarRunning: "81460km",
         Manufacture: 2021,
