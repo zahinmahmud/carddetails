@@ -67,7 +67,7 @@
             <p>Question Answer</p>
         </div>
                 <div class="card">
-            <img src="#" alt="car_image">
+            <img src="" alt="car_image">
             <h2>Brand:Hello</h2>
             <h3>Model:</h3>
             <p> Car description</p>
@@ -90,6 +90,8 @@
         </div>
     </div>
 </template>
+
+<script setup></script>
 
 <style scoped>
 .text {
