@@ -1,52 +1,54 @@
 const questions = [
   {
-    question1: "What is the brand of car?"
+    question: "What is the brand of car?"
   },
   {
-    question2: "What is the model of the car?"
+    question: "What is the model of the car?"
   },
   {
-   question3:"What is the cc of the car"
+   question:"What is the cc of the car"
   },
   {
-    question5:`What is the fuel type of the cart  ? Like as - 
+    question:`What is the fuel type of the cart  ? Like as - 
     1) petrol  2) octate 3)Hybrid` 
 
   },
   {
-question6:"How many kilometer the vechile is running ?"
+question:"How many kilometer the vechile is running ?"
   },
   {
-    question7:"Which year manufactue and  registration done"
+    question:"Which year manufactue and  registration done"
   },
   {
-question8:"Which package of the car ?"
+question:"Which package of the car ?"
   },
   {
-question9:"How many seats in the cars ?"
+question:"How many seats in the cars ?"
   },
   {
-question10: " What is the fuel efficiency of the car ?"
+question: " What is the fuel efficiency of the car ?"
   },
   {
-question11:"What is the body type of the car ?"
+question:"What is the body type of the car ?"
   },
 {
-    question12:"Has the car ever been involved in an accident?"
+    question:"Has the car ever been involved in an accident?"
 },
 {
-   question13: "What type of engine does the car have?"
+   question: "What type of engine does the car have?"
 },
 {
-    question14: "Is the gearbox of the car in good condition?"
+    question: "Is the gearbox of the car in good condition?"
 },
 {
-    question15: "How is the exterior condition of the car?"
+    question: "How is the exterior condition of the car?"
 },
 {
-   question16: "What is the condition of the car's interior?"
+   question: "What is the condition of the car's interior?"
 },
 {
-   question17: "What is the transmission type of the car?"
+   question: "What is the transmission type of the car?"
 }
 ];
+
+export default questions;
