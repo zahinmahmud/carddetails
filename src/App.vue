@@ -1,6 +1,6 @@
 <template>
   <div  class="container">
-    <h2>Common Question Asked </h2>
+    <h2>Common Question Asked for buying a car </h2>
     <div v-for="question in data" :key="question.id" class="card" >
       <li>{{ question.question }} </li>
 
