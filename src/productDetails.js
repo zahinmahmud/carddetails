@@ -1,27 +1,51 @@
+// import premio from "./assets/image/premio_front.jpg";
+// import premioB from "./assets/image/premio_back.jpg"
+// import noahFront from "./assets/image/Toyota-Noah_front.jpg"
+// import noahback from "./assets/image/noahback.jpg"
+// import allionFront from "./assets/image/allionfront.jpg"
+// import allionback from "./assets/image/allionback.jpg"
+// import axiofront from "./assets/image/axiofront.jpg"
+// import axioback from "./assets/image/axioback.jpg"
+// import voxyfront from "./assets/image/voxyfront.jpg "
+// import voxyback from "./assets/image/voxyback.jpg"
+// import aquafront from "./assets/image/aquafront.jpg"
+// import aquaback from "./assets/image/aquaback.jpg"
+// import Vitzfront from "./assets/image/VitzFront.jpg"
+// import Vitzback from "./assets/image/vitzback.jpg"
+// import Alphardfront from "./assets/image/alphardfront.jpg"
+// import Alphardback from "./assets/image/alphardback.jpg"
+// import CHRfront from "./assets/image/CR-Vfront.jpg"
+// import CHRback from "./assets/image/CHR.jpg"
+// import esquirefront from "./assets/image/esquirefront.jpg"
+// import esquireback from "./assets/image/esquireback.jpg"
+// import Harrierfront from "./assets/image/harrierfront.jpg"
+// import Harrierback from "./assets/image/harrierback.jpg"
+// import crossfront from "./assets/image/corollacrossfront.jpg"
+// import crossback  from "./assets/image/corollacrossback.jpg"
 import premio from "./assets/image/premio_front.jpg";
-import premioB from "./assets/image/premio_back.jpg"
-import noahFront from "./assets/image/Toyota-Noah_front.jpg"
-import noahback from "./assets/image/noahback.jpg"
-import allionFront from "./assets/image/allionfront.jpg"
-import allionback from "./assets/image/allionback.jpg"
-import axiofront from "./assets/image/axiofront.jpg"
-import axioback from "./assets/image/axioback.jpg"
-import voxyfront from "./assets/image/voxyfront.jpg "
-import voxyback from "./assets/image/voxyback.jpg"
-import aquafront from "./assets/image/aquafront.jpg"
-import aquaback from "./assets/image/aquaback.jpg"
-import Vitzfront from "./assets/image/VitzFront.jpg"
-import Vitzback from "./assets/image/vitzback.jpg"
-import Alphardfront from "./assets/image/alphardfront.jpg"
-import Alphardback from "./assets/image/alphardback.jpg"
-import CHRfront from "./assets/image/CR-Vfront.jpg"
-import CHRback from "./assets/image/CHR.jpg"
-import esquirefront from "./assets/image/esquirefront.jpg"
-import esquireback from "./assets/image/esquireback.jpg"
-import Harrierfront from "./assets/image/harrierfront.jpg"
-import Harrierback from "./assets/image/harrierback.jpg"
-import crossfront from "./assets/image/corollacrossfront.jpg"
-import crossback  from "./assets/image/corollacrossback.jpg"
+import premioB from "./assets/image/premio_back.jpg";
+import noahFront from "./assets/image/Toyota-Noah_front.jpg";
+import noahback from "./assets/image/noahback.jpg";
+import allionFront from "./assets/image/allionfront.jpg";
+import allionback from "./assets/image/allionback.jpg";
+import axiofront from "./assets/image/axiofront.jpg";
+import axioback from "./assets/image/axioback.jpg";
+import voxyfront from "./assets/image/voxyfront.jpg"; // Fixed trailing space bug here
+import voxyback from "./assets/image/voxyback.jpg";
+import aquafront from "./assets/image/aquafront.jpg";
+import aquaback from "./assets/image/aquaback.jpg";
+import Vitzfront from "./assets/image/VitzFront.jpg";
+import Vitzback from "./assets/image/vitzback.jpg";
+import Alphardfront from "./assets/image/alphardfront.jpg";
+import Alphardback from "./assets/image/alphardback.jpg";
+import CHRfront from "./assets/image/CR-Vfront.jpg"; // Double check if this is a Honda CR-V or Toyota C-HR!
+import CHRback from "./assets/image/CHR.jpg";
+import esquirefront from "./assets/image/esquirefront.jpg";
+import esquireback from "./assets/image/esquireback.jpg";
+import Harrierfront from "./assets/image/harrierfront.jpg";
+import Harrierback from "./assets/image/harrierback.jpg";
+import crossfront from "./assets/image/corollacrossfront.jpg";
+import crossback from "./assets/image/corollacrossback.jpg";
 
 const productDetails = [
     {
