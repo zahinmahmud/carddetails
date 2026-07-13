@@ -1,9 +1,12 @@
+import premio from "./assets/image/premio_front.jpg";
+
 const productDetails = [
     {
         id: 1,
-        image:"",
         BrandName: "Toyota",
         ModelName: "Premio",
+        CarImage:premio,
+        ImageWidth:"150px",
         CarCC: 1600,
         FuelType: "Octane",
         CarRunning: "65000km",

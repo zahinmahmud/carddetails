@@ -1,97 +1,43 @@
 <template>
     <h2 class="text">Car gallery</h2>
     <div class="container">
-        <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
+        <div class="card" v-for="data in productDetails" :key="data.id">
+            <img :src="data.CarImage" alt="car_image" :style="{width:data.ImageWidth}">
+            <h2>Brand:{{ data.BrandName }}</h2>
+            <h3>Model:{{ data.ModelName }}</h3>
+            <p> Car CC : {{ data.CarCC }}</p>
+            <p>Manufacture:{{ data.Manufacture }}</p>
+            <button @click="nextPage(data.id)">View Details</button>
         </div>
-                <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-                <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
+    
+        <div>
 
-        <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
         </div>
-             <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-                <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-                <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-
-        <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-             <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-                <div class="card">
-            <img src="" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-                <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
-        </div>
-
-        <div class="card">
-            <img src="#" alt="car_image">
-            <h2>Brand:Hello</h2>
-            <h3>Model:</h3>
-            <p> Car description</p>
-            <p>Question Answer</p>
+           <div>
+        <div>
+            <!-- Access the first item in the array using [0] -->
+        
         </div>
     </div>
+    </div>
+
+ 
 </template>
 
-<script setup></script>
+<script setup>
+import productDetails from '../productDetails';
+import imageGallery from '../image';
+
+import {useRouter} from 'vue-router'
+const router = useRouter()
+
+
+const nextPage =(id)=>{
+    console.log("nex page")
+
+    router.push(`./ProductDetails/${id}`)
+}
+</script>
 
 <style scoped>
 .text {
@@ -104,13 +50,14 @@
 }
 
 .container {
-    width:1200px;
+    width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.card{
+
+.card {
     width: 400px;
     height: 400px;
     align-items: center;
@@ -120,6 +67,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 </style>
