@@ -20,7 +20,7 @@ question6:"How many kilometer the vechile is running ?"
     question7:"Which year manufactue and  registration done"
   },
   {
-question:"Which package of the car ?"
+question8:"Which package of the car ?"
   },
   {
 question9:"How many seats in the cars ?"
@@ -33,5 +33,20 @@ question11:"What is the body type of the car ?"
   },
 {
     question12:"Has the car ever been involved in an accident?"
+},
+{
+   question13: "What type of engine does the car have?"
+},
+{
+    question14: "Is the gearbox of the car in good condition?"
+},
+{
+    question15: "How is the exterior condition of the car?"
+},
+{
+   question16: "What is the condition of the car's interior?"
+},
+{
+   question17: "What is the transmission type of the car?"
 }
 ];
