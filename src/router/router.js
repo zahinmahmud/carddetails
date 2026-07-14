@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 import Question from "../components/Question.vue";
 import App from "../App.vue";
@@ -7,7 +7,7 @@ import Detailsoproduct from "../components/Detailsoproduct.vue";
 
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     {
       path: "/",
