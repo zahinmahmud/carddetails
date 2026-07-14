@@ -30,30 +30,34 @@ import allionFront from "./assets/image/allionfront.jpg";
 import allionback from "./assets/image/allionback.jpg";
 import axiofront from "./assets/image/axiofront.jpg";
 import axioback from "./assets/image/axioback.jpg";
-import voxyfront from "./assets/image/voxyfront.jpg"; // Fixed trailing space bug here
+import voxyfront from "./assets/image/voxy.jpg"; 
 import voxyback from "./assets/image/voxyback.jpg";
 import aquafront from "./assets/image/aquafront.jpg";
-import aquaback from "./assets/image/aquaback.jpg";
+import aquaback from "./assets/image/aqua.jpg";
 import Vitzfront from "./assets/image/VitzFront.jpg";
 import Vitzback from "./assets/image/vitzback.jpg";
 import Alphardfront from "./assets/image/alphardfront.jpg";
 import Alphardback from "./assets/image/alphardback.jpg";
-import CHRfront from "./assets/image/CR-Vfront.jpg"; // Double check if this is a Honda CR-V or Toyota C-HR!
+import CHRfront from "./assets/image/chrfront.jpg"; 
 import CHRback from "./assets/image/CHR.jpg";
 import esquirefront from "./assets/image/esquirefront.jpg";
 import esquireback from "./assets/image/esquireback.jpg";
 import Harrierfront from "./assets/image/harrierfront.jpg";
 import Harrierback from "./assets/image/harrierback.jpg";
-import crossfront from "./assets/image/corollacrossfront.jpg";
-import crossback from "./assets/image/corollacrossback.jpg";
-
+import crossfront from "./assets/image/Cross.jpg";
+import crossBack from "./assets/image/CrossBack.jpg";
+import rav4front from "./assets/image/rav4front.jpg";
+import rav4back from "./assets/image/rav4back.jpg";
+import landcruserFront from "./assets/image/frontL.png"
+import landcruserBack from "./assets/image/backL.png" 
+import yarisback from "./assets/image/yarisback.jpg"
+import yarisfront from "./assets/image/yarisfront.jpg"
 const productDetails = [
     {
         id: 1,
         BrandName: "Toyota",
         ModelName: "Premio",
-        CarImage: premio,
-        CarImageback: premioB,
+        CarImage: [premio , premioB],
         ImageWidth: "150px",
         CarCC: 1600,
         FuelType: "Octane",
@@ -249,7 +253,7 @@ const productDetails = [
         id: 7,
         BrandName: "Toyota",
         ModelName: "Corolla Cross",
-        CarImage:[crossfront,crossback],
+        CarImage:[crossfront,crossBack],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "50000km",
@@ -443,7 +447,7 @@ const productDetails = [
         id: 13,
         BrandName: "Toyota",
         ModelName: "Rav4",
-        CarImage:[],
+        CarImage:[rav4front,rav4back],
         CarCC: 2000,
         FuelType: "Octane | Hybrid",
         CarRunning: "63000km",
@@ -472,14 +476,14 @@ const productDetails = [
     {
         id: 14,
         BrandName: "Toyota",
-        ModelName: "Rush",
-        CarImage:[],
-        CarCC: 1600,
+        ModelName: "Yaris",
+        CarImage:[yarisback,yarisfront],
+        CarCC: 1800,
         FuelType: "Octane ",
         CarRunning: "20000km",
         Manufacture: 2020,
-        Package: "S Package",
-        seat: 5,
+        Package: "Z Package",
+        seat: 7,
         ShapeType: "New Shape",
         AccidentHistory: true,
         EngineModel: [
@@ -496,11 +500,11 @@ const productDetails = [
         id: 15,
         BrandName: "Toyota",
         ModelName: "Land Crusier Prado",
-        CarImage:[],
+        CarImage:[landcruserFront,landcruserBack],
         CarCC: 2700,
         FuelType: "Octane",
         CarRunning: "65000km",
-        Manufacture: 2016,
+        Manufacture: 2020,
         Package: "TX",
         seat: 7,
         ShapeType: "New Shape",

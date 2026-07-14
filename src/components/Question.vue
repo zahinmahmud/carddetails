@@ -34,7 +34,7 @@
 
 .card li {
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+ font-family: 'Times New Roman', Times, serif;
   list-style: none;
 }
 </style>
